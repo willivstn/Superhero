@@ -1,0 +1,68 @@
+body {
+    /* Here we set the background image */
+    background: url('images/women.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+/* Here we style the navigation bar */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /*This will create a black edge effect around the text */
+    /* Or alternatively you can use -webkit-text-stroke */
+    /* -webkit-text-stroke: 1px black; */
+}
+
+.about-content {
+    text-align: justify;
+    margin-left: 0;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery img {
+    margin: 10px;
+    max-width: 200px;
+    height: auto;
+}
